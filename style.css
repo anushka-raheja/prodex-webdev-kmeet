@@ -44,23 +44,23 @@ nav {
     align-items: center;
     gap: 10px;
     height: 100px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgb(170, 171, 170);
   }
   
   .itemf {
-    background: rgb(45, 159, 229);
+    background: #107dc7;
     padding: 20px;
   }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
     gap: 10px;
-    background: rgb(137, 139, 137);
+    background: rgb(170, 171, 170);
     padding: 10px;
   }
   
   .itemg {
-    background: rgb(45, 159, 229);
+    background: #107dc7;
     padding: 20px;
     text-align: center;
   }
@@ -86,4 +86,7 @@ nav {
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+.egs{
+  padding: 10px
+}
   
