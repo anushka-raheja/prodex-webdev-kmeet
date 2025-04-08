@@ -34,28 +34,35 @@
         </div>
         <div class="egs">
             illustrating variables
-        <input type="checkbox" class="mode">
-        <div class="colorchanger"></div>
-        <div class="boxmodel">
-            to illustrate box model 
-        </div>
+            <input type="checkbox" class="mode">
+            <div class="colorchanger"></div>
+            <div class="boxmodel">
+                to illustrate box model 
+            </div>
         <!-- <div class="spinner"></div> -->
-        <h2>Flexbox Layout</h2>
-            <div class="flex-container">
-                <div class="itemf">1234</div>
-                <div class="itemf">2</div>
-                <div class="itemf">3</div>
-            </div>
-            <h2>Grid Layout</h2>
-            <div class="grid-container">
-              <div class="itemg">1</div>
-              <div class="itemg">2</div>
-              <div class="itemg">3</div>
-              <div class="itemg">4</div>
-            </div>
-        
+            <h2>Flexbox Layout</h2>
+                <div class="flex-container">
+                    <div class="itemf">1234</div>
+                    <div class="itemf">2</div>
+                    <div class="itemf">3</div>
+                </div>
+                <h2>Grid Layout</h2>
+                <div class="grid-container">
+                <div class="itemg">1</div>
+                <div class="itemg">2</div>
+                <div class="itemg">3</div>
+                <div class="itemg">4</div>
+                </div>
+            <h2>Add Items</h2>
+
+            <form id="itemForm">
+                <input type="text" id="itemInput" placeholder="Enter item" required>
+                <button type="submit">Add</button>
+            </form>
+            
+            <ul id="itemList"></ul>
             
         </div>
-        
+        <script src="main.js"></script>
 	</body>
 </html>
